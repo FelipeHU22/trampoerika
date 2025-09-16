@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confeitaria da Computaria</title>
+  <link rel="stylesheet" href="cake.css" />
+  <script src="cup.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Confeitaria da Computaria</h1>
+    <div class="topo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Cardápio</a></li>
+          <li><a href="carrinho.html">Carrinho</a></li>
+          <li><a href="formulario.html">Cadastro</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="cupcake-container">
+      <div class="Cupcake">
+        <img src="chocomonster_cup.png" width="150" height="150" alt="Cupcake Chocomonster" />
+        <h3>Cupcake de Chocolate</h3>
+        <p>CHOCOMONSTER CUP</p>
+        <p>Preço: R$ 12,50</p>
+        <p>Ingredientes: Chocolate, cacau, açúcar, manteiga</p>
+        <button onclick="adicionarCarrinho('Cupcake Chocomonster', 12.50, 'chocomonster_cup.png', 'Chocolate, cacau, açúcar, manteiga')">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="Cupcake">
+        <img src="cupcake_cereja.png" width="150" height="150" alt="Cupcake de Cereja" />
+        <h3>Cupcake de Cereja</h3>
+        <p>Preço: R$ 9,99</p>
+        <p>Ingredientes: Cereja, açúcar, manteiga, ovo</p>
+        <button onclick="adicionarCarrinho('Cupcake de Cereja', 9.99, 'cupcake_cereja.png', 'Cereja, açúcar, manteiga, ovo')">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="Cupcake">
+        <img src="cupcake_morango.png" width="150" height="150" alt="Cupcake de Morango" />
+        <h3>Cupcake de Morango</h3>
+        <p>Preço: R$ 9,99</p>
+        <p>Ingredientes: Morango, açúcar, manteiga, ovo</p>
+        <button onclick="adicionarCarrinho('Cupcake de Morango', 9.99, 'cupcake_morango.png', 'Morango, açúcar, manteiga, ovo')">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="Cupcake">
+        <img src="cupcake_de_amendoim.png" width="150" height="150" alt="Cupcake de Amendoim" />
+        <h3>Cupcake de Amendoim</h3>
+        <p>Preço: R$ 9,99</p>
+        <p>Ingredientes: Amendoim, açúcar, manteiga, ovo</p>
+        <button onclick="adicionarCarrinho('Cupcake de Amendoim', 9.99, 'cupcake_de_amendoim.png', 'Amendoim, açúcar, manteiga, ovo')">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="Cupcake">
+        <img src="cupcake_mirtilo.png" width="150" height="150" alt="Cupcake de Mirtilo" />
+        <h3>Cupcake de Mirtilo</h3>
+        <p>Preço: R$ 9,99</p>
+        <p>Ingredientes: Mirtilo, açúcar, manteiga, ovo</p>
+        <button onclick="adicionarCarrinho('Cupcake de Mirtilo', 9.99, 'cupcake_mirtilo.png', 'Mirtilo, açúcar, manteiga, ovo')">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <h4>Confeitaria da Computaria</h4>
+    <a href="carrinho.html">Ir para o Carrinho</a>
+  </footer>
+</body>
+</html>
